@@ -1,0 +1,4 @@
+<%= form_for([@todo_list,@todo_list.todo_items.build]) do |f|  %>
+<%= f.text_field:content , placeholde:"new todo"%>
+<%= f.submit %>
+<%end%>
